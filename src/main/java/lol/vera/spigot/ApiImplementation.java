@@ -8,6 +8,8 @@ public interface ApiImplementation {
 
     KnockbackProfile getKnockbackProfile(String name);
 
+    void setActiveKnockbackProfile(KnockbackProfile knockbackProfile);
+
     class DEFAULT implements ApiImplementation {
 
         @Override
@@ -18,6 +20,11 @@ public interface ApiImplementation {
         @Override
         public KnockbackProfile getKnockbackProfile(String name) {
             return null;
+        }
+
+        @Override
+        public void setActiveKnockbackProfile(KnockbackProfile knockbackProfile) {
+
         }
 
     }
