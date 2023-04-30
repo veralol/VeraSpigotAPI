@@ -14,19 +14,26 @@ public class PrePlayerDeathEvent extends PlayerEvent implements Cancellable {
         super(who);
     }
 
+    /**
+     * @return If the death of this player is cancelled or not
+     */
     public boolean isCancelled() {
         return this.cancelled;
     }
 
+    /**
+     * Set whether the event should be cancelled
+     * @param cancel true if you wish to cancel this event
+     */
     public void setCancelled(boolean cancel) {
         this.cancelled = cancel;
     }
 
-    public HandlerList getHandlers() {
+    public static HandlerList getHandlerList() {
         return handlers;
     }
 
-    public static HandlerList getHandlerList() {
+    public HandlerList getHandlers() {
         return handlers;
     }
 

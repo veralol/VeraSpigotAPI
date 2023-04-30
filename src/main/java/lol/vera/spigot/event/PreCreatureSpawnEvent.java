@@ -8,16 +8,8 @@ import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 import org.bukkit.event.entity.CreatureSpawnEvent;
 
-/**
- * WARNING: This event only fires for a limited number of cases, and not for every case that CreatureSpawnEvent does.
- *
- * You should still listen to CreatureSpawnEvent as a backup, and only use this event as an "enhancement".
- * The intent of this event is to improve server performance, so limited use cases.
- *
- * Currently: NATURAL and SPAWNER based reasons. Please submit a Pull Request for future additions.
- * Also, Plugins that replace Entity Registrations with their own custom entities might not fire this event.
- */
 public class PreCreatureSpawnEvent extends Event implements Cancellable {
+
     private final Location location;
     private final EntityType type;
     private final CreatureSpawnEvent.SpawnReason reason;
@@ -95,4 +87,5 @@ public class PreCreatureSpawnEvent extends Event implements Cancellable {
     public void setCancelled(boolean cancel) {
         cancelled = cancel;
     }
+
 }
