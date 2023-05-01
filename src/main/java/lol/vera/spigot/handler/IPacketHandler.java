@@ -1,7 +1,7 @@
 package lol.vera.spigot.handler;
 
-import net.minecraft.server.v1_8_R3.Packet;
-import net.minecraft.server.v1_8_R3.PlayerConnection;
+import net.minecraft.server.Packet;
+import net.minecraft.server.PlayerConnection;
 
 public interface IPacketHandler {
 
