@@ -1,6 +1,6 @@
 package lol.vera.spigot.handler;
 
-import net.minecraft.server.PacketPlayInFlying;
+import net.minecraft.server.v1_8_R3.PacketPlayInFlying;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 
