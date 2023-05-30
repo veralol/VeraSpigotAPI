@@ -40,4 +40,42 @@ public interface KnockbackProfile {
 
     Integer getPotionTicks();
 
+    void setName(String name);
+
+    void setFriction(double friction);
+
+    void setVertical(double vertical);
+
+    void setHorizontal(double horizontal);
+
+    void setVerticalLimit(double verticalLimit);
+
+    void setExtraVertical(double extraVertical);
+
+    void setExtraHorizontal(double extraHorizontal);
+
+    void setEntitySlowdown(double entitySlowdown);
+
+    void setDamageTicks(double damageTicks);
+
+    void setAutoWTap(boolean autoWTap);
+
+    void setOnePointSeven(boolean onePointSeven);
+
+    void setRodSpeed(double rodSpeed);
+
+    void setBowSpeed(double bowSpeed);
+
+    void setPearlSpeed(double pearlSpeed);
+
+    void setPotionSpeed(double potionSpeed);
+
+    void setPotionIntensity(double potionIntensity);
+
+    void setPotionOffset(double potionOffset);
+
+    void setPotionDistance(double potionDistance);
+
+    void setPotionTicks(Integer potionTicks);
+
 }
