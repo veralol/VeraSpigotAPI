@@ -4,8 +4,8 @@ import org.bukkit.entity.Player;
 
 public interface PacketHandler {
 
-    boolean handleSent(Player player, Object packet);
+    void handleSent(Player player, Object packet);
 
-    boolean handleReceived(Player player, Object packet);
+    void handleReceived(Player player, Object packet);
 
 }
