@@ -13,8 +13,6 @@ public interface KnockbackImplementation {
 
     void setActiveKnockbackProfile(Player player, KnockbackProfile knockbackProfile);
 
-    void createKnockbackProfile(KnockbackProfile knockbackProfile);
-
     class DEFAULT implements KnockbackImplementation {
 
         @Override
@@ -34,11 +32,6 @@ public interface KnockbackImplementation {
 
         @Override
         public void setActiveKnockbackProfile(Player player, KnockbackProfile knockbackProfile) {
-
-        }
-
-        @Override
-        public void createKnockbackProfile(KnockbackProfile knockbackProfile) {
 
         }
 
