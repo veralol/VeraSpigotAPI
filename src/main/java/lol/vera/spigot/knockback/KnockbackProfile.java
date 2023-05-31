@@ -47,10 +47,6 @@ public interface KnockbackProfile {
 
     void setName(String name);
 
-    void setFriction(double friction);
-
-    void setVertical(double vertical);
-
     void setHorizontal(double horizontal);
 
     void setVerticalLimit(double verticalLimit);
