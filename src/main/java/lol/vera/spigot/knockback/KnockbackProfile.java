@@ -12,9 +12,9 @@ public interface KnockbackProfile {
 
     double getVerticalMax();
 
-    double getHorizontal();
+    double getVertical();
 
-    double getVerticalLimit();
+    double getHorizontal();
 
     double getExtraVertical();
 
@@ -49,7 +49,7 @@ public interface KnockbackProfile {
 
     void setHorizontal(double horizontal);
 
-    void setVerticalLimit(double verticalLimit);
+    void setVertical(double vertical);
 
     void setExtraVertical(double extraVertical);
 
