@@ -4,9 +4,13 @@ public interface KnockbackProfile {
 
     String getName();
 
-    double getFriction();
+    double getHorizontalFriction();
 
-    double getVertical();
+    double getVerticalFriction();
+
+    double getVerticalMin();
+
+    double getVerticalMax();
 
     double getHorizontal();
 
@@ -39,6 +43,7 @@ public interface KnockbackProfile {
     double getPotionDistance();
 
     Integer getPotionTicks();
+
 
     void setName(String name);
 
@@ -77,5 +82,9 @@ public interface KnockbackProfile {
     void setPotionDistance(double potionDistance);
 
     void setPotionTicks(Integer potionTicks);
+
+    void setVerticalMin(double verticalMin);
+
+    void setVerticalMax(double verticalMax);
 
 }
