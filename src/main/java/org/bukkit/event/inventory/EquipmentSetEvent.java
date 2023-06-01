@@ -1,4 +1,4 @@
-package lol.vera.spigot.event;
+package org.bukkit.event.inventory;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
