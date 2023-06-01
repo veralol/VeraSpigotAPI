@@ -1,4 +1,4 @@
-package lol.vera.spigot.event.potion;
+package org.bukkit.event.entity;
 
 import lombok.Getter;
 import lombok.Setter;

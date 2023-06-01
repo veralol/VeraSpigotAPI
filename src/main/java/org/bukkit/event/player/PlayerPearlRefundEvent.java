@@ -1,4 +1,4 @@
-package lol.vera.spigot.event;
+package org.bukkit.event.player;
 
 import lombok.*;
 import org.bukkit.entity.Player;
